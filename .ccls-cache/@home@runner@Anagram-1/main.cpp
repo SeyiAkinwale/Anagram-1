@@ -1,6 +1,12 @@
 #include <iostream>
+using namespace std;
 
-int printRecur(int count)
+void printRecur(int count)
+{
+  if (count<0) return;
+  cout<<"Printing recursively";
+  cout<<" stack size is: " <<count;
+}
 int main() {
   std::cout << "Hello World!\n";
 }
