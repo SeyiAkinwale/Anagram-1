@@ -8,5 +8,5 @@ void printRecur(int count)
   cout<<" stack size is: " <<count;
 }
 int main() {
-  std::cout << "Hello World!\n";
+  printRecur(0);
 }
